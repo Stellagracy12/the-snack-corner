@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE SNACK CORNER MENU</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #000000;
+            color: #FFFFFF;
+        }
+        .menu-container {
+            width: 800px;
+            margin: 0 auto;
+            /* padding: 20px; */
+        }
+        h1 {
+            word-spacing: 12px;
+            text-align: center;
+            font-size: 40px;
+            text-transform: capitalize;
+            height: 30px;
+            font-weight: 900;
+            font-style: italic;
+            font-family: 'Lucida Calligraphy', sans-serif;
+        }
+        .section {
+            margin: 25px 0;
+        }
+        .section-title {
+            background-color: #FF7900;
+            padding: 8px;
+            font-size: 22px;
+            text-transform: uppercase;
+            font-weight: 900;
+            border-radius: 12px;
+            color: #000000;
+        }
+        .items {
+            /* padding: 12px; */
+            display: flex;
+            justify-content: space-between;
+            text-transform: capitalize;
+            height: auto;
+            align-items: center;
+        }
+        .items div {
+            width: 48%;
+        }
+        .items p {
+
+            margin: 15px 0;
+            font-weight: 700;
+            font-size: 26px;
+        }
+    
+        .menu-images {
+            position: relative;
+            display: flex;
+            justify-content: center;  
+            align-items: center;      
+            width: 120px;
+            height: 80%;
+       }
+
+.menu-images::before {
+    width: 251px;
+    height: 165px;
+    top: -14px;
+    left: -4px;
+    background-color: #ff6f00;
+    border-bottom-left-radius: 100%;
+    border-top-left-radius: 88%;
+    content: '';
+    position: absolute;
+}
+
+.menu-images img {
+    width: 78%;
+    height: 130px;
+    border-radius: 50%; 
+    position: relative;  
+    z-index: 1;         
+}
+.contact-info {
+    /* background-color: #FF7900; */
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact-info p {
+    border: 1px solid #ff6f00;
+    background-color: #ff6f00;
+    height: 35px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+h3 {
+    text-align: center;
+    font-size: 17px;
+    text-transform: capitalize;
+     /* height: 60px; */
+    }
+    .menu-quote {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    margin-top: -21px;
+    color: white; 
+    font-weight: 700;
+}
+    </style>
+</head>
+<body>
+   <!-- <h1>THE SNACK CORNER</h1> -->
+    <div class="menu-container">
+        <h1>THE SNACK CORNER</h1>
+        <h3>"taste of home:savory south indian treats"</h3>
+
+        <!-- Main Course Section -->
+        <div class="section">
+            <div class="section-title" style="width: 8%; margin-left: 3%;">idly</div>
+            <div class="items">
+                <div>
+                    <p>Plain</p>
+                    <p>butter</p>
+                    <p>podi</p>
+                    <p>thokku</p>
+                </div>
+                <div>
+                    <p>₹ 30</p>
+                    <p>₹ 40</p>
+                    <p>₹ 40</p>
+                </div>
+                <div class="menu-images">
+                    <img src="../assets/podi.jpg" alt="soup" style=" height: 83%;">
+                </div>
+            </div>
+        </div>
+
+        <!-- maggi Section -->
+        <div class="section">
+            <div class="section-title" style="width: 31%;margin-left: 40%;" >MINI PAPER ROAST</div>
+            <div class="items" style="margin-top: 10px;">
+                <div class="menu-images">
+                    <img src="../assets/Cheese_Masala_Dosa.jpg" alt="maggi" style="object-fit: cover;height: 100%;">
+                </div>
+                <div style="margin-left: 40px;">
+                    <p>Plain</p>
+                    <p>butter</p>
+                    <p>podi</p>
+                    <p>thokku</p>
+                    <p>cheese</p>
+                </div>
+                <div>
+                    <p>₹ 40</p>
+                    <p>₹ 50</p>
+                    <p>₹ 50</p>
+                    <p>₹ 70</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bread Section -->
+        <div class="section">
+            <div class="section-title" style="width: 20%;">PANIYARAM</div>
+            <div class="items">
+                <div>
+                    <p>Plain</p>
+                   <p>butter</p>
+                   <p>podi</p>
+                   <p>cheese</p>
+                   <p>thokku</p>
+                </div>
+                <div>
+                    <p>₹ 40</p>
+                    <p>₹ 50</p>
+                    <p>₹ 50</p>
+                    <p>₹ 70</p>
+                </div>
+                <div class="menu-images">
+                    <img src="../assets/hq720.jpg" alt="bread" >
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <p style="width: 20%;">📞 123-456-7890</p>
+            <p style="width: 40%;">📍 nilgiris,johnsons square,kotagiri</p>
+        </div>
+        <div class="menu-quote">
+            <p>"Good food is all the sweeter when shared with good friends."</p>
+        </div>
+    </div>
+    <!-- <div class="menu-quote">
+        <p>"Good food is all the sweeter when shared with good friends."</p>
+    </div> -->
+
+</body>
+</html>
